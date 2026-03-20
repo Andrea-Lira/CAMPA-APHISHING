@@ -26,11 +26,12 @@ El 905 de las brechas de ciberseguridad inician con un error humano. Este proyec
 
 Para validadr la efectividad de la campaña, se propone el monitoreo de los siguientes indicadores:
 
-| Métrica | Definición | Meta (target) | 
-| :--- | :---: | :--- | :--- |
-| **Phish-prone %** | Porcentaje de usuarios que hacen clic en el enlace | <5% tras 3 meses |
-| **Reporting Data** | Usuarios que notifican el correo al equipo de TI/Seguridad | >40% (Métrica de Resiliencia) | 
-| **Coverage Rate** | Porcentaje de la plantilla que completó la lectura del material | 100% de los usuarios críticos | 
+| Indicador (KPI) | Definición Técnica | Objetivo (Target) | Impacto en GRC |
+| :--- | :--- | :--- | :--- |
+| **Phish-prone %** | Porcentaje de usuarios que interactúan con el enlace malicioso. | < 5% en 90 días | Reducción de la superficie de ataque. |
+| **Reporting Rate** | Porcentaje de usuarios que notifican el correo sospechoso al SOC/TI. | > 45% de la muestra | Fortalecimiento de la capacidad de detección. |
+| **Time to Report** | Tiempo transcurrido entre el envío del correo y el primer reporte. | < 15 minutos | Mejora en los tiempos de respuesta a incidentes. |
+| **Coverage Rate** | Porcentaje del personal que completó la lectura del material. | 100% (Personal crítico) | Cumplimiento normativo (ISO/NIST). |
 
 ## Cumplimiento y Normativa
 Este proyecto apoya el cumplimiento de los siguientes marcos legales y técnicos:
