@@ -25,9 +25,9 @@ La infografía se enfoca en presentar 3 pilares de detección comunes, sugeridos
 
 **2. Simulación de Ataque (Phishing Simulation)**
 
----
-
 Para evaluar la efectividad de la campaña y obtener la **Línea Base (Baseline)** de la cultura de seguridad, se diseñó el siguiente correo electrónico de simulación basado en tácticas de ingeniería social.
+
+---
 
 > **Asunto:** ⚠️ ACCIÓN REQUERIDA: Actualización de Credenciales - AURA MOTORS  
 > **De:** Soporte Técnico `<it-security@aura-motors-soporte.com>`  
@@ -55,8 +55,6 @@ Este correo fue diseñado para contener **4 señales de alerta** que se alinean 
 2. **Sentido de Urgencia (Pressure Tactic):** El límite de "2 horas" busca desactivar el pensamiento crítico del colaborador, forzando una reacción impulsiva.
 3. **Enlace Enmascarado (URL Shortener):** El uso de `bit.ly` oculta el destino real del sitio, una técnica común para evadir filtros de seguridad básicos.
 4. **Amenaza de Consecuencia Negativa:** El aviso de "suspensión de cuenta" es un disparador psicológico de miedo que aumenta la probabilidad de clic.
-
----
 
 ## Marco de Medición (KPIs Sugeridos)
 
