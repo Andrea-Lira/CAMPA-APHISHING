@@ -1,4 +1,4 @@
-# Estrategia de Concientización: Mitigación de Phishing v1.0 
+# Estrategia de Concientización: Mitigación de Phishing
 
 ### **Framework:** Alineado a ISO/1EC 27001:2022 (Control A.6.3) y NIST CSF (PR.AT-1)
 
@@ -71,4 +71,4 @@ Para validadr la efectividad de la campaña, se propone el monitoreo de los sigu
 Este proyecto apoya el cumplimiento de los siguientes marcos legales y técnicos:
    * **ISO 27001:** Control de concientización y formación.
    * **NIST CSF:** User Training and Awareness.
-   * **Ley Federal de Protección a Datos Personales en Poseción de los Particulares (México):** Medidas de seguridad administrativas para la protección de datos personales
+
