@@ -14,13 +14,49 @@ El 905 de las brechas de ciberseguridad inician con un error humano. Este proyec
 
 **1. Material Eduactivo: "Anatomía de un phishing"**
    * **Formato:** Infografía de alto impacto, alineada visualmente a la imagen corporativa de la empresa.
-   * **Propósito:** Capacitación visual rápida sobre señales de alerta (remitentes falsos, enlaces sospechosos, sentido de urgencia).
-   * **Herramientas:** Diseñado en Canva siguiendo estandares de comunicación operativa.
+   * **Propósito:** Capacitación visual rápida sobre qué es el Phishing, cuales son las alertas básicas y que hacer en caso de detectarlo.
+
+![Infografía Anti-Phishing Aura Motors](INFOGRAFIAPHISHING.png)
+
+La infografía se enfoca en presentar 3 pilares de detección comunes, sugeridos como cuestionamientos personales que puede realizarse el usuario que recibe el correo malicioso:
+   * Validación de datos: Identificación de solicitud e información sensible
+   * Verificación de origen: Comprobación de dominios oficiales
+   * Contexto de comunicación: Confirmación de cambios informados previamente
 
 **2. Simulación de Ataque (Phishing Simulation)**
-   * **Escenario:** notificación de "Actualización de Contraseña Obligatoria*
-   * **Táctica:** Ingenieria social basada en auoridad y urgencia.
-   * **Muestra:**
+
+---
+
+Para evaluar la efectividad de la campaña y obtener la **Línea Base (Baseline)** de la cultura de seguridad, se diseñó el siguiente correo electrónico de simulación basado en tácticas de ingeniería social.
+
+> **Asunto:** ⚠️ ACCIÓN REQUERIDA: Actualización de Credenciales - AURA MOTORS  
+> **De:** Soporte Técnico `<it-security@aura-motors-soporte.com>`  
+> **Fecha:** 21 de Marzo de 2026, 09:00 AM  
+> 
+> **Estimado colaborador,**
+> 
+> Hemos detectado un intento de inicio de sesión inusual en su cuenta desde una ubicación no reconocida. Por políticas de seguridad de **Aura Motors**, es obligatorio que realice la validación de sus credenciales en las próximas **2 horas** para evitar la suspensión temporal de su acceso a los sistemas internos.
+> 
+> Por favor, haga clic en el siguiente botón para confirmar su identidad y actualizar su contraseña:
+> 
+> [ 🔒 ACTUALIZAR MI CONTRASEÑA AQUÍ ](http://bit.ly/login-aura-motors-secure)
+> 
+> Si no realiza esta acción, su cuenta será bloqueada automáticamente por el protocolo de protección de activos.
+> 
+> *Atentamente,* > **Departamento de Sistemas y Ciberseguridad** > *Aura Motors S.A. de C.V.*
+
+---
+
+#### 🔍 Análisis Técnico del Vector de Ataque (Red Flags)
+
+Este correo fue diseñado para contener **4 señales de alerta** que se alinean con la infografía educativa del proyecto:
+
+1. **Remitente Externo (Spoofing de Dominio):** El dominio oficial es `@auramotors.com`, pero el correo proviene de `@aura-motors-soporte.com`. Se utiliza un dominio "primo" para generar falsa confianza.
+2. **Sentido de Urgencia (Pressure Tactic):** El límite de "2 horas" busca desactivar el pensamiento crítico del colaborador, forzando una reacción impulsiva.
+3. **Enlace Enmascarado (URL Shortener):** El uso de `bit.ly` oculta el destino real del sitio, una técnica común para evadir filtros de seguridad básicos.
+4. **Amenaza de Consecuencia Negativa:** El aviso de "suspensión de cuenta" es un disparador psicológico de miedo que aumenta la probabilidad de clic.
+
+---
 
 ## Marco de Medición (KPIs Sugeridos)
 
