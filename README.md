@@ -19,9 +19,9 @@ El 90% de las brechas de ciberseguridad inician con un error humano. Este proyec
 ![Infografía Anti-Phishing Aura Motors](INFOGRAFIA-PHISHING.png)
 
 La infografía se enfoca en presentar 3 pilares de detección comunes, sugeridos como cuestionamientos personales que puede realizarse el usuario que recibe el correo malicioso:
-   * Validación de datos: Identificación de solicitud e información sensible
-   * Verificación de origen: Comprobación de dominios oficiales
-   * Contexto de comunicación: Confirmación de cambios informados previamente
+   * **Validación de datos:** Identificación de solicitud e información sensible
+   * **Verificación de origen:** Comprobación de dominios oficiales
+   * **Contexto de comunicación:** Confirmación de cambios informados previamente
 
 **2. Simulación de Ataque (Phishing Simulation)**
 
