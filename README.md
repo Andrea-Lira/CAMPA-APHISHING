@@ -8,7 +8,7 @@ Diseñar y estructurar un acampaña de concientización integral para reducir el
 
 ## Análisis del Problema
 
-El 905 de las brechas de ciberseguridad inician con un error humano. Este proyecto aborda la vulnerabilidad desde la **Cultura de Seguridad**, transformando al colaborador de un "punto débil" a un "agente de detección".
+El 90% de las brechas de ciberseguridad inician con un error humano. Este proyecto aborda la vulnerabilidad desde la **Cultura de Seguridad**, transformando al colaborador de un "punto débil" a un "agente de detección".
 
 ## Componentes de la Campaña (Entregables)
 
